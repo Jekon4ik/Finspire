@@ -1,0 +1,58 @@
+# ASP.NET / .NET Core
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.vs/
+.vscode/
+*.dbmdl
+*.log
+*.pdb
+*.cache
+*.config
+*.ide
+
+# NuGet Packages
+*.nupkg
+packages/
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+
+# Entity Framework
+Migrations/
+
+# ASP.NET publish output
+wwwroot/dist/
+wwwroot/node_modules/
+
+# Rider project files
+.idea/
+
+# macOS files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# React frontend (if in ClientApp/)
+ClientApp/node_modules/
+ClientApp/build/
+ClientApp/.env.local
+ClientApp/.env.development.local
+ClientApp/.env.test.local
+ClientApp/.env.production.local
+
+# npm / Yarn logs
+ClientApp/npm-debug.log*
+ClientApp/yarn-debug.log*
+ClientApp/yarn-error.log*
+
+# Optional: lockfiles (optional depending on package manager)
+ClientApp/package-lock.json
+ClientApp/yarn.lock
+ClientApp/pnpm-lock.yaml
