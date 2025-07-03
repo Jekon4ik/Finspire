@@ -1,12 +1,13 @@
-import React from 'react';
+import React, { JSX } from 'react';
 import "./Card.css";
+import { JsxElement } from 'typescript';
 interface Props {
   coinName: string;
   ticker: string;
   price: number;
 }
 
-const Card = ({coinName, ticker, price}: Props) => {
+const Card: React.FC<Props> = ({coinName, ticker, price}: Props) :JSX.Element=> {
   return <div className='card'>
     <img src='https://tdutkowski.com/images/blog/apple-1977.jpg'></img>
     <div className='details'>
